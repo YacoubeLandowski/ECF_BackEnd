@@ -35,7 +35,7 @@ public class IHM {
             System.out.print("Choix : ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consomme la nouvelle ligne après nextInt()
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
