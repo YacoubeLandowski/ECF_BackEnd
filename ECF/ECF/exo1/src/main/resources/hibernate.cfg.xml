@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <mapping class="entity.Classe"/>
+    <mapping class="entity.Departement"/>
+    <mapping class="entity.EmploiDuTemps"/>
+    <mapping class="entity.Enseignant"/>
+    <mapping class="entity.Enseigner"/>
+    <mapping class="entity.Etablissement"/>
+    <mapping class="entity.Etudiant"/>
+    <mapping class="entity.Matiere"/>
+    <mapping class="entity.Note"/>
+    <mapping class="entity.PeutEnseigner"/>
+    <mapping class="entity.PeutEnseignerId"/>
+    <mapping class="entity.RelieA"/>
+    <mapping class="entity.ResponsableDepartement"/>
+  </session-factory>
+</hibernate-configuration>
